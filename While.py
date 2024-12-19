@@ -6,6 +6,11 @@ index = 0
 while index < len(my_list):
     if my_list[index] < 0 :
         break
+
+    if my_list[index] == 0:
+        index +=1
+        continue
+
     print(my_list[index])
     index += 1
 
